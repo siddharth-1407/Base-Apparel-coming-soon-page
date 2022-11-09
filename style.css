@@ -60,7 +60,7 @@ p{
     border-radius: 2em;
     border: 1px solid var(--ds-red);
     /* border: none; */
-    padding: 0 8em 0 1.5em;
+    padding: 0 5em 0 1.5em;
     font-size: 1rem;
 }
 .form-container{
@@ -180,6 +180,9 @@ form{
         max-width: 27.5em;
         margin-bottom: 2em;
         /* max-width: 440px; */
+    }
+    .form-container #email{
+        padding: 0 8em 0 1.5em;
     }
     h1{
         text-align: left;
